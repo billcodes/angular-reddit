@@ -7,13 +7,11 @@ export class Article {
         this.link = link;
         this.votes = votes || 0;
     }
-    voteup():boolean{
+    voteup(){
         this.votes +=1;
-        return false;
     }
-    votedown():boolean{
+    votedown(){
         this.votes -=1;
-        return false;
     }
     domain(): string{
         try {
